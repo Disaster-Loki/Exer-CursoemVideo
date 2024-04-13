@@ -1,3 +1,3 @@
-from math import trunc
+import math
 number = float(input("Number: "))
-print("Whole part: {}".format(trunc(number)))
+print("Whole part: {}".format(math.trunc(number)))
