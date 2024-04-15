@@ -1,5 +1,5 @@
-name = str(input("Name: "))
+name = str(input("Full Name: ")).strip()
 print(name.upper())
 print(name.lower())
-print(name.count(name))
+print(len(name) - name.count(" "))
 print(name.capitalize())
