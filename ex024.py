@@ -1,2 +1,2 @@
 city = str(input("Birthday city: ")).strip()
-print(city[:5].upper == 'SANTO')
+print(city[:5].upper() == 'SANTO')
