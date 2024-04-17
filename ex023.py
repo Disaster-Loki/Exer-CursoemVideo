@@ -1,0 +1,5 @@
+number = int(input("Number: "))
+print("Uni: {}".format(number // 1 % 10))
+print("Dezena: {}".format(number // 10 % 10))
+print("Centena: {}".format(number // 100 % 10))
+print("Milhar: {}".format(number // 1000 % 10))
